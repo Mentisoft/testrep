@@ -6,7 +6,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 global bot
-bot = telegram.Bot(token='TOKEN')
+bot = telegram.Bot(token='728544464:AAGBm0Crj5a0-1Ydp_2B6PWuf3k_N5oDCEI')
 
 
 @app.route('/HOOK', methods=['POST'])
